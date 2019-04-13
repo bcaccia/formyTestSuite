@@ -49,7 +49,7 @@ class ButtonsTest {
 	@Test
 	void clickEachButton() {
 		
-		wait = new WebDriverWait(driver, 2);
+		wait = new WebDriverWait(driver, 10);
 		
 		driver.findElement(By.xpath(PRIMARY_BUTTON)).click();
 		driver.findElement(By.cssSelector(SUCCESS_BUTTON)).click();
