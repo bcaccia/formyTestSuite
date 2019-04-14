@@ -35,7 +35,7 @@ public class BrowserSelect {
 	
 	public static WebDriver BrowserChoice() throws MalformedURLException {
 		// Change this value to change the browser for all tests
-		return firefox();
+		return chrome();
 	}
 	
 
